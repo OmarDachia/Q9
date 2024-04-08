@@ -21,7 +21,7 @@ int main() {
 
   third_number = first_number;
   first_number = second_number;
-  second_number = first_number;
+  second_number = third_number;
 
 
   cout << "AFTER SWAP"<<endl;
